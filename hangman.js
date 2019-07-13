@@ -7,7 +7,7 @@ function playAgain(){
         location.reload();
 }
 
-let words=[
+let words =[
     "hydrogen", "helium", "lithium", "beryllium", "boron", "carbon", "nitrogen", "oxygen",
     "flourine", "neon", "sodium", "magnesium", "aluminum", "silicon", "phosphorus", "sulfur",
     "chlorine", "argon", "potassium", "calcium", "scandium" , "titanium", "vanadium", "chromium",
@@ -1883,9 +1883,6 @@ function disableButtonT() {
                 incorrect();
         }
 
-        if(letter1.innerHTML != '' && letter2.innerHTML != '' && letter3.innerHTML != '' && letter4.innerHTML != ''){
-                alert('you win');
-        }
         myBlanks();
 };
 
