@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<meta charset="utf-8">
+<title>Science Hangman</title>
+<meta name="description" content="Hangman">
+<meta name="author" content="SitePoint">
+<link rel="stylesheet" href="hangman.css">
+<link href="https://fonts.googleapis.com/css?family=Bahianita&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<br><br>
+
+<img onclick="playAgain()" id= "again" style="width:50vw; margin-left: 10vw; z-index:2; position: fixed; margin-top: 40vh; visibility: hidden;" src="tryagain.png">
+<img onclick="playAgain()" id= "againwin" style="width:50vw; height:30vh; margin-left: 10vw; z-index:2; position: fixed; margin-top: 50vh; border: solid rgb(185, 185, 185) 1rem; visibility: hidden;" src="win.png">
+
+<section id="playgame">
+
+<p id="descript">Guess A Letter And See If You Can Figure Out The Name Of The Element!</p>
+<br>
+
+<div id="blanks" >
+        
+</div>
+
+
+
+
+<div id="grid-container" >
+        <button id="one" onclick="disableButtonA();"><div id="grid-item">A</div></button>
+        <button id="two" onclick="disableButtonB()"><div id="grid-item">B</div></button>
+        <button id="three" onclick="disableButtonC()"><div id="grid-item">C</div></button>
+        <button id="four" onclick="disableButtonD()"><div id="grid-item">D</div></button>
+        <button id="five" onclick="disableButtonE()"><div id="grid-item">E</div></button>
+        <button id="six" onclick="disableButtonF()"><div id="grid-item">F</div></button>
+        <button id="seven" onclick="disableButtonG()"><div id="grid-item">G</div></button>
+        <button id="eight" onclick="disableButtonH()"><div id="grid-item">H</div></button>
+        <button id="nine" onclick="disableButtonI()"><div id="grid-item">I</div></button>
+        <button id="ten" onclick="disableButtonJ()"><div id="grid-item">J</div></button>
+        <button id="eleven" onclick="disableButtonK()"><div id="grid-item">K</div></button>
+        <button id="twelve" onclick="disableButtonL()"><div id="grid-item">L</div></button>
+        <button id="thirteen" onclick="disableButtonM()"><div id="grid-item">M</div></button>
+        <button id="fourteen" onclick="disableButtonN()"><div id="grid-item">N</div></button>
+        <button id="fifteen" onclick="disableButtonO()"><div id="grid-item">O</div></button>
+        <button id="sixteen" onclick="disableButtonP()"><div id="grid-item">P</div></button>
+        <button id="seventeen" onclick="disableButtonQ()"><div id="grid-item">Q</div></button>
+        <button id="eighteen" onclick="disableButtonR()"><div id="grid-item">R</div></button>
+        <button id="nineteen" onclick="disableButtonS()"><div id="grid-item">S</div></button>
+        <button id="twenty" onclick="disableButtonT()"><div id="grid-item">T</div></button>
+        <button id="twentyone" onclick="disableButtonU()"><div id="grid-item">U</div></button>
+        <button id="twentytwo" onclick="disableButtonV()"><div id="grid-item">V</div></button>
+        <button id="twentythree" onclick="disableButtonW()"><div id="grid-item">W</div></button>
+        <button id="twentyfour" onclick="disableButtonX()"><div id="grid-item">X</div></button>
+        <button id="twentyfive" onclick="disableButtonY()"><div id="grid-item">Y</div></button>
+        <button id="twentysix" onclick="disableButtonZ()"><div id="grid-item">Z</div></button>
+</div>
+
+
+<div class="man-container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><img id="item1" src="head.png"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    
+        <div></div>
+        <div></div>
+        <div><img id="item3" src="leftarm.png"></div>
+        <div><img id="item2" src="body.png"></div>
+        <div><img id="item4" src="rightarm.png"></div>
+        <div></div>
+        <div></div>
+    
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><img  id="item5" src="legs.png"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="hangman.js"></script>
+
+</body>
+
+</html>

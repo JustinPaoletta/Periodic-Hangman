@@ -1,0 +1,367 @@
+body{
+  background-image: url('https://ak5.picdn.net/shutterstock/videos/26610515/thumb/12.jpg');
+  background-size: cover;
+}
+
+#title{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#descript{
+  text-shadow: 2px 2px black;
+}
+
+#playgame p{
+ text-align: center;
+ font-size: 4rem;
+ font-family: 'Bahianita', monospace;
+ color:white;
+ 
+}
+
+#again{
+  border: 1rem solid rgb(185, 185, 185);
+}
+
+
+.man-container {
+  width:30vw;
+  float: right;
+  height:40vh;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: -40vh;
+}
+
+#item1{
+ height:100px;
+ visibility: hidden;
+ margin-top: 15px;
+}
+
+#item2{
+  height:100px;
+  visibility: hidden;
+  margin-left: 4px;
+  margin-top: -5px;
+}
+
+#item3{
+  height:100px;
+  float: right;
+  visibility: hidden;
+}
+
+#item4{
+  height:100px;
+  visibility: hidden;
+}
+
+#item5{
+  margin-top: -25px;
+  height:100px;
+  visibility: hidden;
+  width:90px;
+}
+
+
+
+#grid-container {
+    margin-left: 8vw;
+    width:30vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 4vh;
+    font-family: 'Notable', sans-serif;
+  }
+
+
+  button{
+      background-color: black;
+      color: white;
+  }
+
+  #blanks{
+    display: inline-flex;
+    width:95vw;
+    margin-left: 2.5vw;
+    margin-top: -2vh;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    
+  }
+
+  #blanks p{
+    border-bottom: solid 4px black;
+    width:6vw;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 1.25vw;
+    font-family: 'Rubik', sans-serif;
+    color:black;
+    height:8vh;
+  }
+
+  #one{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #two{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #three{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #four{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #five{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #six{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #seven{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #eight{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #nine{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #ten{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #eleven{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twelve{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #thirteen{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #fourteen{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #fifteen{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #sixteen{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #seventeen{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #eighteen{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #nineteen{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twenty{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twentyone{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twentytwo{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twentythree{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twentyfour{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twentyfive{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
+
+  #twentysix{
+    height:80px;
+    width:80px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+  }
