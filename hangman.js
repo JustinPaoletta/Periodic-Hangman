@@ -252,7 +252,7 @@ function disableButtonA() {
         audio.play();
         document.getElementById("one").disabled = true;
         document.getElementById("one").innerHTML = "A";
-        document.getElementById("one").style.color = "black";
+        document.getElementById("one").style.color = "white";
         
 
 
@@ -339,7 +339,7 @@ function disableButtonB() {
         audio.play();
         document.getElementById("two").disabled = true;
         document.getElementById("two").innerHTML = "B";
-        document.getElementById("two").style.color = "black";
+        document.getElementById("two").style.color = "white";
 
 
         if (word[0] == 'b'){
@@ -422,7 +422,7 @@ function disableButtonC() {
         audio.play();
         document.getElementById("three").disabled = true;
         document.getElementById("three").innerHTML = "C";
-        document.getElementById("three").style.color = "black";
+        document.getElementById("three").style.color = "white";
 
 
         if (word[0] == 'c'){
@@ -504,7 +504,7 @@ function disableButtonD() {
         audio.play();
         document.getElementById("four").disabled = true;
         document.getElementById("four").innerHTML = "D";
-        document.getElementById("four").style.color = "black";
+        document.getElementById("four").style.color = "white";
 
 
         if (word[0] == 'd'){
@@ -586,7 +586,7 @@ function disableButtonE() {
         audio.play();
         document.getElementById("five").disabled = true;
         document.getElementById("five").innerHTML = "E";
-        document.getElementById("five").style.color = "black";
+        document.getElementById("five").style.color = "white";
 
 
         if (word[0] == 'e'){
@@ -668,7 +668,7 @@ function disableButtonF() {
         audio.play();
         document.getElementById("six").disabled = true;
         document.getElementById("six").innerHTML = "F";
-        document.getElementById("six").style.color = "black";
+        document.getElementById("six").style.color = "white";
 
 
         if (word[0] == 'f'){
@@ -749,7 +749,7 @@ function disableButtonG() {
         audio.play();
         document.getElementById("seven").disabled = true;
         document.getElementById("seven").innerHTML = "G";
-        document.getElementById("seven").style.color = "black";
+        document.getElementById("seven").style.color = "white";
 
 
         if (word[0] == 'g'){
@@ -831,7 +831,7 @@ function disableButtonH() {
         audio.play();
         document.getElementById("eight").disabled = true;
         document.getElementById("eight").innerHTML = "H";
-        document.getElementById("eight").style.color = "black";
+        document.getElementById("eight").style.color = "white";
 
 
         if (word[0] == 'h'){
@@ -913,7 +913,7 @@ function disableButtonI() {
         audio.play();
         document.getElementById("nine").disabled = true;
         document.getElementById("nine").innerHTML = "I";
-        document.getElementById("nine").style.color = "black";
+        document.getElementById("nine").style.color = "white";
 
 
         if (word[0] == 'i'){
@@ -995,7 +995,7 @@ function disableButtonJ() {
         audio.play();
         document.getElementById("ten").disabled = true;
         document.getElementById("ten").innerHTML = "J";
-        document.getElementById("ten").style.color = "black";
+        document.getElementById("ten").style.color = "white";
 
 
         if (word[0] == 'j'){
@@ -1077,7 +1077,7 @@ function disableButtonK() {
         audio.play();
         document.getElementById("eleven").disabled = true;
         document.getElementById("eleven").innerHTML = "K";
-        document.getElementById("eleven").style.color = "black";
+        document.getElementById("eleven").style.color = "white";
 
 
         if (word[0] == 'k'){
@@ -1159,7 +1159,7 @@ function disableButtonL() {
         audio.play();
         document.getElementById("twelve").disabled = true;
         document.getElementById("twelve").innerHTML = "L";
-        document.getElementById("twelve").style.color = "black";
+        document.getElementById("twelve").style.color = "white";
 
 
         if (word[0] == 'l'){
@@ -1240,7 +1240,7 @@ function disableButtonM() {
         audio.play();
         document.getElementById("thirteen").disabled = true;
         document.getElementById("thirteen").innerHTML = "M";
-        document.getElementById("thirteen").style.color = "black";
+        document.getElementById("thirteen").style.color = "white";
 
 
         if (word[0] == 'm'){
@@ -1322,7 +1322,7 @@ function disableButtonN() {
         audio.play();
         document.getElementById("fourteen").disabled = true;
         document.getElementById("fourteen").innerHTML = "N";
-        document.getElementById("fourteen").style.color = "black";
+        document.getElementById("fourteen").style.color = "white";
 
 
         if (word[0] == 'n'){
@@ -1403,7 +1403,7 @@ function disableButtonO() {
         audio.play();
         document.getElementById("fifteen").disabled = true;
         document.getElementById("fifteen").innerHTML = "O";
-        document.getElementById("fifteen").style.color = "black";
+        document.getElementById("fifteen").style.color = "white";
 
 
         if (word[0] == 'o'){
@@ -1485,7 +1485,7 @@ function disableButtonP() {
         audio.play();
         document.getElementById("sixteen").disabled = true;
         document.getElementById("sixteen").innerHTML = "P";
-        document.getElementById("sixteen").style.color = "black";
+        document.getElementById("sixteen").style.color = "white";
 
 
         if (word[0] == 'p'){
@@ -1566,7 +1566,7 @@ function disableButtonQ() {
         audio.play();
         document.getElementById("seventeen").disabled = true;
         document.getElementById("seventeen").innerHTML = "Q";
-        document.getElementById("seventeen").style.color = "black";
+        document.getElementById("seventeen").style.color = "white";
 
 
         if (word[0] == 'q'){
@@ -1647,7 +1647,7 @@ function disableButtonR() {
         audio.play();
         document.getElementById("eighteen").disabled = true;
         document.getElementById("eighteen").innerHTML = "R";
-        document.getElementById("eighteen").style.color = "black";
+        document.getElementById("eighteen").style.color = "white";
 
         
 
@@ -1729,7 +1729,7 @@ function disableButtonS() {
         audio.play();
         document.getElementById("nineteen").disabled = true;
         document.getElementById("nineteen").innerHTML = "S";
-        document.getElementById("nineteen").style.color = "black";
+        document.getElementById("nineteen").style.color = "white";
 
         if (word[0] == 's'){
                 var letterone = document.createTextNode(word[0]);
@@ -1809,7 +1809,7 @@ function disableButtonT() {
         audio.play();
         document.getElementById("twenty").disabled = true;
         document.getElementById("twenty").innerHTML = "T";
-        document.getElementById("twenty").style.color = "black";
+        document.getElementById("twenty").style.color = "white";
 
         if (word[0] == 't'){
                 var letterone = document.createTextNode(word[0]);
@@ -1893,7 +1893,7 @@ function disableButtonU() {
         audio.play();
         document.getElementById("twentyone").disabled = true;
         document.getElementById("twentyone").innerHTML = "U";
-        document.getElementById("twentyone").style.color = "black";
+        document.getElementById("twentyone").style.color = "white";
 
         if (word[0] == 'u'){
                 var letterone = document.createTextNode(word[0]);
@@ -1973,7 +1973,7 @@ function disableButtonV() {
         audio.play();
         document.getElementById("twentytwo").disabled = true;
         document.getElementById("twentytwo").innerHTML = "V";
-        document.getElementById("twentytwo").style.color = "black";
+        document.getElementById("twentytwo").style.color = "white";
 
         if (word[0] == 'v'){
                 var letterone = document.createTextNode(word[0]);
@@ -2053,7 +2053,7 @@ function disableButtonW() {
         audio.play();
         document.getElementById("twentythree").disabled = true;
         document.getElementById("twentythree").innerHTML = "W";
-        document.getElementById("twentythree").style.color = "black";
+        document.getElementById("twentythree").style.color = "white";
 
         if (word[0] == 'w'){
                 var letterone = document.createTextNode(word[0]);
@@ -2133,7 +2133,7 @@ function disableButtonX() {
         audio.play();
         document.getElementById("twentyfour").disabled = true;
         document.getElementById("twentyfour").innerHTML = "X";
-        document.getElementById("twentyfour").style.color = "black";
+        document.getElementById("twentyfour").style.color = "white";
 
         if (word[0] == 'x'){
                 var letterone = document.createTextNode(word[0]);
@@ -2213,7 +2213,7 @@ function disableButtonY() {
         audio.play();
         document.getElementById("twentyfive").disabled = true;
         document.getElementById("twentyfive").innerHTML = "Y";
-        document.getElementById("twentyfive").style.color = "black";
+        document.getElementById("twentyfive").style.color = "white";
 
         if (word[0] == 'y'){
                 var letterone = document.createTextNode(word[0]);
@@ -2293,7 +2293,7 @@ function disableButtonZ() {
         audio.play();
         document.getElementById("twentysix").disabled = true;
         document.getElementById("twentysix").innerHTML = "Z";
-        document.getElementById("twentysix").style.color = "black";
+        document.getElementById("twentysix").style.color = "white";
 
         if (word[0] == 'z'){
                 var letterone = document.createTextNode(word[0]);
