@@ -1,4 +1,4 @@
-# Hangman
+# Periodic Hangman
 Lets Play Hangman With The Periodic Table Of Elements
 
 ### Instructions
